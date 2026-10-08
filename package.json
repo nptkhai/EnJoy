@@ -1,0 +1,17 @@
+{
+  "name": "enjoy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "EnJoy — ứng dụng học tiếng Anh mỗi ngày (PWA tĩnh, chạy cục bộ).",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "https": "node server.js --https",
+    "icons": "node scripts/make-icons.mjs",
+    "test": "node --test"
+  }
+}
