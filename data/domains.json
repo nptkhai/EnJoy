@@ -1,0 +1,6 @@
+[
+  { "id": "general",  "name": "Tổng quát",  "icon": "🌍", "description": "Từ vựng dùng hằng ngày",            "vocab": "vocab/general.json" },
+  { "id": "it",       "name": "IT",         "icon": "💻", "description": "Lập trình, phần mềm, mạng",        "vocab": "vocab/it.json" },
+  { "id": "business", "name": "Kinh doanh", "icon": "💼", "description": "Công sở, họp hành, tài chính",     "vocab": "vocab/business.json" },
+  { "id": "medical",  "name": "Y tế",       "icon": "🩺", "description": "Bệnh viện, triệu chứng, điều trị", "vocab": "vocab/medical.json" }
+]
