@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>EnJoy</title>
+  <meta name="description" content="EnJoy — học từ vựng tiếng Anh mỗi ngày theo lĩnh vực: tổng quát, IT, kinh doanh, y tế.">
+  <meta name="theme-color" content="#1d4ed8">
+  <meta name="color-scheme" content="light dark">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="icon" href="icons/icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>
+    // Apply the saved theme before first paint to avoid a light/dark flash.
+    try {
+      var s = JSON.parse(localStorage.getItem('enjoy:state') || '{}');
+      var t = s && s.settings && s.settings.theme;
+      if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  </script>
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#app">Bỏ qua, tới nội dung chính</a>
+
+  <header class="app-header">
+    <a class="brand" href="#/" aria-label="EnJoy — về trang chủ">
+      <img src="icons/icon.svg" alt="" width="32" height="32">
+      <span>EnJoy</span>
+    </a>
+    <nav aria-label="Điều hướng chính">
+      <ul class="nav-links">
+        <li><a href="#/" data-nav="home">🏠 <span>Trang chủ</span></a></li>
+        <li><a href="#/review" data-nav="review">🔁 <span>Ôn tập</span></a></li>
+        <li><a href="#/settings" data-nav="settings">⚙️ <span>Cài đặt</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="app" tabindex="-1">
+    <p class="loading">Đang tải…</p>
+  </main>
+
+  <noscript>
+    <p class="noscript">EnJoy cần JavaScript để chạy. Hãy bật JavaScript trong trình duyệt.</p>
+  </noscript>
+
+  <div id="toast-region" class="toast-region" role="status" aria-live="polite"></div>
+</body>
+</html>
