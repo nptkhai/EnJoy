@@ -76,18 +76,18 @@ export function start(container, ctx) {
     els.count = h('span', { class: 'fc-count' });
     els.feedback = h('span', { class: 'badge', 'aria-live': 'polite' });
 
-    els.word = h('div', { class: 'fc-word', lang: 'en' });
-    els.ipa = h('div', { class: 'fc-ipa' });
-    els.front = h('div', { class: 'fc-face fc-front' },
+    els.word = h('span', { class: 'fc-word', lang: 'en' });
+    els.ipa = h('span', { class: 'fc-ipa' });
+    els.front = h('span', { class: 'fc-face fc-front' },
       els.word, els.ipa,
-      h('div', { class: 'fc-tap' }, '👆 Chạm để xem nghĩa'));
+      h('span', { class: 'fc-tap' }, '👆 Chạm để xem nghĩa'));
 
-    els.vi = h('div', { class: 'fc-vi' });
-    els.backWord = h('div', { class: 'fc-ipa', lang: 'en' });
-    els.example = h('div', { class: 'fc-example', lang: 'en' });
-    els.back = h('div', { class: 'fc-face fc-back' },
+    els.vi = h('span', { class: 'fc-vi' });
+    els.backWord = h('span', { class: 'fc-ipa', lang: 'en' });
+    els.example = h('span', { class: 'fc-example', lang: 'en' });
+    els.back = h('span', { class: 'fc-face fc-back' },
       els.backWord, els.vi, els.example,
-      h('div', { class: 'fc-tap' }, '👆 Chạm để lật lại'));
+      h('span', { class: 'fc-tap' }, '👆 Chạm để lật lại'));
 
     els.card = h('button', {
       class: 'fc-card',
@@ -95,7 +95,7 @@ export function start(container, ctx) {
       'aria-pressed': 'false',
       'aria-describedby': 'fc-help',
       onclick: onFlip,
-    }, h('div', { class: 'fc-inner' }, els.front, els.back));
+    }, h('span', { class: 'fc-inner' }, els.front, els.back));
 
     els.speak = h('button', {
       class: 'btn btn-ghost',

@@ -154,8 +154,7 @@ function main() {
   if (useHttps) {
     tls = loadCerts();
     if (!tls) {
-      printHttpsHelp();
-      process.exitCode = 1;
+      printHttpsHelp(); // exit normally so npm doesn't bury the instructions under an error block
       return;
     }
   }

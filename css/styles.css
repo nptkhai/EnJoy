@@ -586,6 +586,7 @@ main {
 }
 
 .fc-inner {
+  display: block;
   position: relative;
   width: 100%;
   min-height: 280px;
@@ -620,27 +621,32 @@ main {
 }
 
 .fc-word {
+  display: block;
   font-size: clamp(1.8rem, 6vw, 2.6rem);
   font-weight: 800;
   overflow-wrap: anywhere;
 }
 
 .fc-ipa {
+  display: block;
   color: var(--text-muted);
   font-size: 1.1rem;
 }
 
 .fc-vi {
+  display: block;
   font-size: 1.5rem;
   font-weight: 800;
 }
 
 .fc-example {
+  display: block;
   color: var(--text-muted);
   font-style: italic;
 }
 
 .fc-tap {
+  display: block;
   margin-top: 8px;
   color: var(--text-muted);
   font-size: 0.85rem;
