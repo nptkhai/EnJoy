@@ -1,0 +1,12 @@
+[
+  { "word": "bug", "ipa": "/bʌɡ/", "vi": "lỗi phần mềm", "example": "We found a bug in the login page." },
+  { "word": "deploy", "ipa": "/dɪˈplɔɪ/", "vi": "triển khai", "example": "We deploy the new version every Friday." },
+  { "word": "database", "ipa": "/ˈdeɪtəbeɪs/", "vi": "cơ sở dữ liệu", "example": "All user data is stored in the database." },
+  { "word": "repository", "ipa": "/rɪˈpɒzətri/", "vi": "kho mã nguồn", "example": "Clone the repository to your computer first." },
+  { "word": "framework", "ipa": "/ˈfreɪmwɜːk/", "vi": "khung phát triển", "example": "This app is built without a framework." },
+  { "word": "server", "ipa": "/ˈsɜːvər/", "vi": "máy chủ", "example": "The server is down for maintenance." },
+  { "word": "debug", "ipa": "/ˌdiːˈbʌɡ/", "vi": "gỡ lỗi", "example": "It took me two hours to debug this function." },
+  { "word": "requirement", "ipa": "/rɪˈkwaɪəmənt/", "vi": "yêu cầu", "example": "Let's review the requirements with the client." },
+  { "word": "release", "ipa": "/rɪˈliːs/", "vi": "phát hành (bản mới)", "example": "The next release includes dark mode." },
+  { "word": "backup", "ipa": "/ˈbækʌp/", "vi": "bản sao lưu", "example": "Always make a backup before updating." }
+]
