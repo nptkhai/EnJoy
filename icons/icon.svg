@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!--
+    EnJoy icon — the single source for every PNG icon (npm run icons).
+    scripts/make-icons.mjs supports this subset only: <rect> (x y width height rx), <circle> (cx cy r),
+    <polygon> (points), solid hex fill, optional fill-opacity. Keep the background as id="bg"
+    and everything else inside <g id="fg"> so the maskable variant can be built automatically.
+  -->
+  <rect id="bg" x="0" y="0" width="512" height="512" rx="112" fill="#1d4ed8"/>
+  <g id="fg">
+    <!-- speech bubble -->
+    <rect x="88" y="120" width="336" height="236" rx="60" fill="#ffffff"/>
+    <polygon points="160,340 152,424 250,348" fill="#ffffff"/>
+    <!-- letter E -->
+    <rect x="150" y="168" width="36" height="140" rx="8" fill="#1d4ed8"/>
+    <rect x="150" y="168" width="106" height="32" rx="8" fill="#1d4ed8"/>
+    <rect x="150" y="222" width="90" height="32" rx="8" fill="#1d4ed8"/>
+    <rect x="150" y="276" width="106" height="32" rx="8" fill="#1d4ed8"/>
+    <!-- joy: a little sun -->
+    <circle cx="334" cy="238" r="50" fill="#f59e0b"/>
+    <circle cx="334" cy="238" r="30" fill="#fbbf24"/>
+    <!-- sparkle -->
+    <polygon points="420,46 432,78 464,90 432,102 420,134 408,102 376,90 408,78" fill="#fde68a"/>
+  </g>
+</svg>
